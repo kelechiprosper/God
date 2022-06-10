@@ -39,5 +39,7 @@ background:var(--gradient-color);
     padding: 1 rem 20rem;
 }
 
-
+.title-text{
+    margin-left: 200px;
+}
 /* End navigation */
