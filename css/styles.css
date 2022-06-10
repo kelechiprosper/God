@@ -1,2 +1,43 @@
 /* import fonts from fonts.css */
 @import url(./fonts.css);
+
+/* CSS VARIABLES */
+@import url(./pertials/_variables.css);
+
+.pit{
+    text-transform: uppercase;
+    margin-left: 200px;
+    font-family: cursive;
+    color: red;
+}
+
+.horn{
+background:var(--gradient-color);
+    -webkit-background-clip:text;
+    -webkit-text-fill-color: transparent;
+    background-clip:text;
+}
+
+.auto{
+    margin-left: 300px;
+    font-family: var(--roboto);
+    text-transform: uppercase;
+    font-weight: 500;
+    padding: 1.7rem;
+    color: var(--title-color);
+    
+    display: hover;
+    
+    
+}
+
+/* Start navigation */
+.header_area.main-menu.navbar-brand{
+    padding: 0 2 rem 0 5rem;
+}
+.header-area.main-menu.navbar{
+    padding: 1 rem 20rem;
+}
+
+
+/* End navigation */
