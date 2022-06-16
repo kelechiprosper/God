@@ -9,6 +9,27 @@
     margin-left: 200px;
     font-family: cursive;
     color: red;
+    position: absolute;
+    bottom: 20px;
+    left: 70px;
+    bottom: 770px;
+    background: whitesmoke;
+}
+
+
+
+.pilot{
+    position: absolute;
+    bottom: 20px;
+    left: 20%;
+    bottom: 2%;
+}
+
+.feed{
+    position: absolute;
+    bottom: 20px;
+    right: 100px;
+    top: 50%;
 }
 
 .horn{
@@ -18,9 +39,17 @@ background:var(--gradient-color);
     background-clip:text;
 }
 
+
 .img{
-    width: 1000px;
-    margin-right: 200px;
+    width: 100%;
+}
+
+.roman{
+    position: absolute;
+    bottom: 20px;
+    left: 5px;
+    bottom: 60%;
+    top: 20%;
 }
 
 .auto{
@@ -30,11 +59,17 @@ background:var(--gradient-color);
     font-weight: 500;
     padding: 1.7rem;
     color: var(--title-color);
-    
     display: hover;
+    margin-left: 200px;
+    position: absolute;
+    bottom: 20px;
+    right: 70px;
+    bottom: 750px;
     
     
 }
+
+
 
 /* Start navigation */
 .header_area.main-menu.navbar-brand{
@@ -47,23 +82,22 @@ background:var(--gradient-color);
 .title-text{
     margin-left: 200px;
 }
-.kite{
-    margin-left: 200px;
-    position: absolute;
-    bottom: 20px;
-    left: 70px;
-    top: 800px;
-   
-}
+
+
 .button.primary-button, .button.secondary-button{
-    padding-top: 5px;
-    padding-right: 15px;
-    padding-bottom: 5px;
-    padding-left: 15px;
-    background: white;
+    padding-top: 2px;
+    padding-right: 30px;
+    padding-bottom: 2px;
+    padding-left: 30px;
+    background: plum;
     background-clip: padding-box;
     transition: background.6s ease;
-    margin-left: 40px;
+    margin-left: 300px;
+    position: absolute;
+    bottom: 70px;
+    box-shadow: var(--box-shadow);
+    
+
     
 }
 .button.primary-button:hover{
@@ -72,9 +106,10 @@ background:var(--gradient-color);
 }
 
 .button.secondary-button{
-    background: white;
+    background: plum;
     background-clip: padding-box;
     transition: background.6s ease;
+    margin-left: 150px;
 }
 .button.secondary-button:hover{
     
@@ -84,12 +119,12 @@ background:var(--gradient-color);
 
 
 .put{
-    width: 500px;
+    width: 380px;
     margin-left: 200px;
     position: absolute;
-    bottom: 20px;
+    bottom: 50px;
     right: 70px;
-    top: 100%;
+    top: 70%;
     
     
 }
@@ -112,6 +147,9 @@ background:var(--gradient-color);
     text-decoration: none;
     margin-right: 5%;
     transform: translateY(-10px);
+    position: absolute;
+    left: 50px;
+    bottom: 150%;
 
 }
 .porn{
@@ -125,13 +163,8 @@ background:var(--gradient-color);
     margin-right: 5%;
     position: relative;
    
-    
-    
-}
 
-.pilot{
-    font-size: 5rem;
-    margin-left: 200px;
+   
 }
   
   /* Bottom right text */
@@ -142,6 +175,9 @@ background:var(--gradient-color);
     color: coral;
     bottom: 50%;
     right: 2px;
+    position: absolute;
+    bottom: 420px;
+    right: 20px;
     
     
     
@@ -149,3 +185,37 @@ background:var(--gradient-color);
 
 
 /* End Banner Area */
+
+
+.img-fluid{
+    width: 500px;
+}
+.text-uppercasa{
+    margin-left: 50%;
+    display: block;
+    color: blueviolet;
+    font-family: cursive;
+    letter-spacing: 15px;
+    
+    
+}
+.para{
+    margin-left: 67%;
+    color: plum;
+    font: normal 500 16px/ 25px var(--roboto);
+}
+.pig{
+    padding-top: 2px;
+    padding-right: 30px;
+    padding-bottom: 2px;
+    padding-left: 30px;
+    background: plum;
+    background-clip: padding-box;
+    transition: background.6s ease;
+    margin-left: 400px;
+    position: absolute;
+    top: 1850px;
+}
+body{
+    background: palevioletred;
+}
